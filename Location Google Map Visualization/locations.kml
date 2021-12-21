@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+
+<!--	***************************************  My Coordinates **************************************	-->
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2825522,34.0304761</coordinates></Point>
+</Placemark>
+<Placemark><name>Leavey Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates> -118.2828801,34.0216201</coordinates></Point>
+</Placemark>
+<Placemark><name>Nazarian Pavili</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2837011,34.0201791</coordinates></Point>
+</Placemark>
+<Placemark><name>Widney Alumni</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2829401,34.0194382</coordinates></Point>
+</Placemark>
+<Placemark><name>Tommy Trojan St</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2854434,34.0205733</coordinates></Point>
+</Placemark>
+<Placemark><name>Marshall Busine</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2854842,34.0187223</coordinates></Point>
+</Placemark>
+<Placemark><name>USC Gould Schoo</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284160,34.0186851</coordinates></Point>
+</Placemark>
+<Placemark><name>USC Bookstores</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2864351,34.0207954</coordinates></Point>
+</Placemark>
+<Placemark><name>Viterbi School</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2888887,34.0208745</coordinates></Point>
+</Placemark>
+<Placemark><name>Leonard Davis S</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2903431,34.0201623</coordinates></Point>
+</Placemark>
+<Placemark><name>Cromwell Track</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2889691,34.0220171</coordinates></Point>
+</Placemark>
+<Placemark><name>Brittingham Int</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2879761,34.0230921</coordinates></Point>
+</Placemark>
+<Placemark><name>Lyon Recreation</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2879001,34.0242881</coordinates></Point>
+</Placemark>
+
+<!--	********************************************  Convex Hull ******************************************-->
+<Placemark>
+    <name>Convex Hull</name>
+    <Polygon>
+      
+      
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -118.28416,34.0186851
+			-118.2854842,34.0187223
+			-118.2903431,34.0201623
+			-118.2879001,34.0242881
+			-118.2825522,34.0304761
+			-118.2829401,34.0194382
+			-118.28416,34.0186851
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+      
+    </Polygon>
+	<Style>
+	<PolyStyle>
+		<color>#FF0000FF</color>
+		<width>8</width>
+	</PolyStyle>
+	</Style>
+  </Placemark>
+  
+  <!--	******************************************** 4 Nearest Neighbors **************************************	-->
+  
+	<!--   Point 2 -->
+	<Placemark>
+		<name>Closest Point 1</name>
+      
+		<LineString>       
+			<coordinates>-118.2825522,34.0304761
+			 -118.2828801,34.0216201
+			</coordinates>
+		</LineString>
+		<Style>
+			<LineStyle>
+			  <color>#ff35eeff</color>
+			  <width>6</width>
+			</LineStyle>
+		</Style>
+    </Placemark>
+	
+	<!--   Point 13 -->
+   <Placemark>
+		<name>Closest Point 2</name>	
+		  
+		<LineString>
+			
+			<coordinates>-118.2825522,34.0304761
+			 -118.2879001,34.0242881
+			</coordinates>
+		  </LineString>
+		<Style>
+			<LineStyle>
+			  <color>#ff35eeff</color>
+			  <width>6</width>
+			</LineStyle>
+		</Style>
+    </Placemark>
+	
+	<!--   Point 12 -->
+    <Placemark>
+		<name>Closest Point 3</name>
+      
+		<LineString>
+        
+			<coordinates>-118.2825522,34.0304761
+				-118.2879761,34.0230921
+            </coordinates>
+		</LineString>
+		<Style>
+			<LineStyle>
+			<color>#ff35eeff</color>
+			<width>6</width>
+			</LineStyle>
+		</Style>
+    </Placemark>
+	
+	<!--   Point 5 -->
+  <Placemark>
+      <name>Closest Point 4</name>
+      
+    <LineString>
+        
+        <coordinates>-118.2825522,34.0304761
+         -118.2854434,34.0205733          
+        </coordinates>
+    </LineString>
+	<Style>
+        <LineStyle>
+          <color>#ff35eeff</color>
+          <width>6</width>
+        </LineStyle>
+    </Style>
+  </Placemark>
+
+
+	
+    
+</Document>
+</kml>
